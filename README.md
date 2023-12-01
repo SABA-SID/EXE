@@ -9,7 +9,7 @@ Version 0.8 🇩🇿
          تلجرآمـ
 
    
-@SITEEXE
+#@SITEEXE
 
 
 rm -rf EXE
